@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Argentina Viajes es una pagina de turismo con venta paquetes de viajes para las 23 provincias argentinas. Encontra aca nuestra sede principal y deja tus dudas para que nos contactemos.">
+    <meta name="keywords" content="TURISMO, VIAJES, PAQUETES, ARGENTINA, PROVINCIAS">
+    <title>Contacto</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="../multimedia/favicon.ico">
+</head>
+<body>
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-md bg-light fb-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img src="../multimedia/favicon.ico" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html#provincias">Provincias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paquetes.html">Paquetes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <h1 class=" mb-5 borderheader">Contactános</h1>
+        <div class="container text-center">
+          <!--MAPA-->
+            <div class="row mapa">
+              <div class="col-12 col-lg-8 mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2502689039065!2d-58.45236427999997!3d-34.62311531265312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3ba4b894f9%3A0x4d88114294534a12!2sRivadavia%205897%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1671587289140!5m2!1ses!2sar" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <!--FORMULARIO-->
+              <div class="col col-lg-4 col-xs-12">
+                <form action="">
+                    <fieldset class="formulario">
+                        <legend>
+                            Datos personales
+                        </legend>
+                        <div class="mb-3">
+                            <label class="form-label" for="nombre">Nombre</label>
+                            <input class="form-control" type="text" name="name" placeholder="Claudia">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="apellido">Apellido</label>
+                            <input class="form-control" type="text"name="surname" placeholder="Torres">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" type="email"name="email" required placeholder="clautorres@gmail.com"> 
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="destino">Destino</label>
+                            <select class="form-select" name="destino" id="">
+                                <option value="juj">Jujuy</option>
+                                <option value="sal">Salta</option>
+                                <option value="for">Formosa</option>
+                                <option value="tuc">Tucuman</option>
+                                <option value="cha">Chaco</option>
+                                <option value="san">Santiago del Estero</option>
+                                <option value="cat">Catamarca</option>
+                                <option value="cor">Corrientes</option>
+                                <option value="sta">Santa Fe</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <label class="form-label" for="comentario">Consulta</label>
+                            </div>
+                            <textarea class="form-control" name="comentario" id="" rows="5"></textarea>
+                        </div>
+                        <div class="mt-3">
+                            <button class="btn btn-primary" type="submit" value="Enviar datos"> Enviar </button>
+                            <button class="btn btn-danger" type="reset" value="Borrar datos"> Borrar datos </button>
+                        </div>
+                    </fieldset>
+                </form>
+              </div>
+            </div>
+        </div>       
+    </main>
+    <!--FOOTER-->
+    <footer class="mb-4 text-center">
+        <div class="container m-auto">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <img src="../multimedia/argentina logo.png" alt="logoPag" width="50%">
+              </div>
+              <div class="col-12 col-lg-4">
+                <h2>
+                  Nuestros sitios de turismo
+                </h2>
+                <ol class="ps-0" style="list-style: none">
+                  <li>Turismo en Uruguay</li>
+                  <li>Turismo en Chile</li>
+                  <li>Turismo en Brasil</li>
+                </ol>
+              </div>
+              <div class="mt-4 col-12 col-lg-4">
+                <h1>
+                    Redes
+                </h1>
+                <img src="../multimedia/redes.png" alt="redes" width="30%">
+              </div>
+
+            </div>
+        <div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
